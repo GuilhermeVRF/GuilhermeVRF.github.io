@@ -72,11 +72,11 @@ li a:hover{/*Definindo um on-hover para quando eu passar o mouse encima do li-a*
 
 .pessoal{
     padding: 6rem;
-    display: grid;/*Mostrará em forma de tabela - Como tem 2 divis, mostrará 2 tabelas*/
+    display: grid;/*Mostrará em forma de tabela - Como tem 2 divis, mostrará 2 colunas*/
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));/*Responsividade - A minha "tabela" se arrumará sozinha*/
     row-gap: 2rem;
-    column-gap: 6rem;
-    align-items: center;
+    column-gap: 2rem;
+    
 }
 
 .pessoal h1{
@@ -123,4 +123,7 @@ li a:hover{/*Definindo um on-hover para quando eu passar o mouse encima do li-a*
 
 .redes-sociais a:hover{
     color:black;
+}
+
+.dados-Pessoais{
 }
